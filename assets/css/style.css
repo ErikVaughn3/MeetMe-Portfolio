@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: black;
+    font-family: 'TimesNew Roman', sans-serif, Arial;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    padding: 20px 35px;
+    background-color: black;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: blueviolet;
+    margin: 0;
+    display: inline;
+}
+header a {
+    text-decoration: none;
+    color: blueviolet;
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.me {
+    background-color: slategray;
+    height: 600px;
+}
+.me-form {
+    border: 3px solid white;
+    color: blueviolet;
+    background-color: black;
+    padding: 20px;
+    width: 400px;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+img {
+    border: 6px solid black;
+    position: absolute;
+    bottom: 3px;
+    left: 120px;
+}
+main {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: slategray;
+    border: 4px solid black;
+}
+main h1 {
+    text-align: center;
+    padding: 0 5px 10px;
+    color: blueviolet;
+    background-color: black;
+    border: 3px solid black;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.flex-item {
+    width: 45%;
+    border-radius: 14px;
+    border: 4px solid black;
+    background-color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-item span {
+    margin-top: auto;
+    width: 100%;
+    background-color: black;
+    color: blueviolet;
+    margin-top: auto;
+    text-align: center;
+}
